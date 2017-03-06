@@ -10,6 +10,10 @@
 #include <iostream>
  int main2 ()
 {
-    std::cout << "Testing\n";
+  int x = 5;
+  int y = 7;
+  std::cout << "\n";
+    std::cout << x + y << " " << x*y;
+    std::cout << "\n";
     return 0;
 }
