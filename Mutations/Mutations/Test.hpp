@@ -15,5 +15,10 @@ int main2();
 
 int Add();
 
+void iLoveC();
+
+int sizeOf();
+
+int vacation();
 
 #endif /* Test_hpp */

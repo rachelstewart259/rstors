@@ -13,9 +13,46 @@ int Add(int x, int y)
 {
     std::cout<< "In Add(), recieved"<<x<<" and "<<y<<"\n";
     return (x+y);
-    
+
 }
 
+void iLoveC()
+{
+  std::cout << "I love C++";
+}
+
+int sizeOf()
+{
+  unsigned short int Width = 5, Length;
+  Length = 10;
+
+  //Create an unsigned short and init width
+
+  unsigned short int Area = Width * Length;
+  std::cout<< "Width:"<< Width<< "\n";
+  std::cout<<"Length:"<<Length<<"\n";
+  std::cout<<"Area:"<< Area<<"\n";
+  return 0;
+}
+
+int vacation ()
+{
+  enum Days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
+  Days DayOff;
+
+  int x;
+  std::cout << "What day would you like off?";
+  std::cin>> x;
+
+  DayOff = Days(x);
+
+  if (DayOff == Sunday || DayOff == Saturday)
+      std::cout<< "\n You're already off on the weekend!";
+  else
+      std::cout <<"\n Okay! You got the day off";
+
+  return 0; 
+}
 int main2 ()
 {
   //function demonstration
@@ -32,5 +69,3 @@ int main2 ()
   return 0;
 
 }
-
-
