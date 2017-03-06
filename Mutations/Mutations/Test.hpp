@@ -13,7 +13,7 @@
 
 int main2();
 
-void DemonstrationFunction();
+int Add();
 
 
 #endif /* Test_hpp */

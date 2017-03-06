@@ -8,16 +8,29 @@
 
 #include "Test.hpp"
 #include <iostream>
- int main2 ()
-{
-  //function demonstration
-  
-  std::cout<< "See that comment is over! \n";
-  return 0;
-}
 
-void DemonstrationFunction()
+int Add(int x, int y)
 {
-    std::cout<< "This is in the Demonstration Function \n";
+    std::cout<< "In Add(), recieved"<<x<<" and "<<y<<"\n";
+    return (x+y);
     
 }
+
+int main2 ()
+{
+  //function demonstration
+  std::cout<< "I'm in main2 ()! \n ";
+  int a, b, c;
+  std::cout<< "Enter two numbers: ";
+  std::cin>>a;
+  std::cin>>b;
+    std::cout<<"\nCalling Add()\n";
+  c = Add(a,b);
+  std::cout<< "\n Back in Main() \n";
+  std:: cout<< "c was set to " << c;
+  std:: cout<< "\nExiting...\n\n";
+  return 0;
+
+}
+
+

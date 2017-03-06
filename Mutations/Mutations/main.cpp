@@ -15,8 +15,7 @@ int main(int argc, const char * argv[]) {
 
     main2();
 
-    DemonstrationFunction();
-  
+
 
 
     return 0;
