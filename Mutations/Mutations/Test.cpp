@@ -10,13 +10,13 @@
 #include <iostream>
  int main2 ()
 {
+  /* This is a comment that extends
+
+  until closing */
+
   std::cout << " Hello There.\n";
-  std::cout<<"Here is 5: "<< 5 << "\n";
-    std::cout<<"The manipulator endl writes a new line to the screen."<<std::endl;
-    std::cout<<"Here is a very big number: \t"<<70000 <<std::endl;
-    std::cout<<"Here's a fraction:\t\t"<< (float) 5/8 <<std::endl;
-    std::cout<<"And a very very big number:\t"<< (double) 7000 *7000 <<std::endl;
-  std::cout<<"Don't forget to replace Rachel Stewart with your name...\n";
-  std::cout<<"Rachel Stewart is a C++ programmer!\n";
+  //This comment only lasts this line
+
+  std::cout<< "See that comment is over! \n";
   return 0;
 }
