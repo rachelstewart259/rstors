@@ -13,4 +13,7 @@
 
 int main2();
 
+void DemonstrationFunction();
+
+
 #endif /* Test_hpp */

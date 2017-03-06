@@ -12,9 +12,12 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Testing workflow ";
-    
+
     main2();
-    
-    
+
+    DemonstrationFunction();
+  
+
+
     return 0;
 }

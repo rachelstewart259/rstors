@@ -10,13 +10,14 @@
 #include <iostream>
  int main2 ()
 {
-  /* This is a comment that extends
-
-  until closing */
-
-  std::cout << " Hello There.\n";
-  //This comment only lasts this line
-
+  //function demonstration
+  
   std::cout<< "See that comment is over! \n";
   return 0;
+}
+
+void DemonstrationFunction()
+{
+    std::cout<< "This is in the Demonstration Function \n";
+    
 }
