@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+int main2();
+
 #endif /* Test_hpp */
